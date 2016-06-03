@@ -55,6 +55,9 @@ public:
 private:
 	class Directory_Entry //HW 1.6 -Elisha Parslow
 	{
+		private:
+		std::string the_name;
+		std::string the_number;
 	public:
 		Directory_Entry() {// Default no-argument constructor
 			the_name = "No name";
@@ -75,9 +78,7 @@ private:
 			the_number = new_number;
 		
 		}
-	private:
-		string the_name;
-		string the_number;
+	
 	};
 
 	// Private Functions
